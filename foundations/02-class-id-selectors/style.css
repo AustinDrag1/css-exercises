@@ -1,0 +1,22 @@
+.odd
+{
+    background-color:salmon;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.font-size-24
+{
+    font-size: 24px;
+}
+
+#blue
+{
+    color: blue;
+    font-size: 36px;
+}
+
+#lightgreen
+{
+    background-color: lightgreen;
+    font-weight: bold;
+}
