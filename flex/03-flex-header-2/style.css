@@ -14,13 +14,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 10px;
 }
 
-.account,
-.general {
+.general,
+.account {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .profile-image {
@@ -29,7 +30,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  flex-shrink: 0;
 }
 
 .logo {
@@ -37,7 +37,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin: 10px;
 }
 
 button {
@@ -58,12 +57,5 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0px;
-}
-
-li {
-  margin: 7px;
-}
-
-.account > * {
-  margin: 0 7px 0 7px;
+  gap: 15px;
 }
