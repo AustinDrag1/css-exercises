@@ -38,17 +38,10 @@ body {
 .tile-container {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .tile {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 200px;
-  flex-shrink: 0;
   text-align: center;
-  margin: 0 26px 0 26px;
-}
-
-.tile > img {
-  align-self: center;
+  max-width: 200px;
 }
