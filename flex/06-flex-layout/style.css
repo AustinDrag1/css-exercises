@@ -47,10 +47,6 @@ a {
   color: gray;
 }
 
-.left-links li, .right-links li {
-  //border: 1px solid red;
-}
-
 .content {
   display: flex;
   flex-flow: column nowrap;
@@ -62,7 +58,6 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  //align-items: center;
 }
 
 .footer {
